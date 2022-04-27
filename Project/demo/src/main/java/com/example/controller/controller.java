@@ -20,10 +20,10 @@ public class controller {
 	@Autowired
 	repository repo;
 	
-	@PostMapping("/post")
-	String postData() {
-		return null;
-	}
+//	@PostMapping("/post")
+//	String postData() {
+//		return null;
+//	}
 	
 	@GetMapping("/get")
 	List<entity> lisOFEmp(){
